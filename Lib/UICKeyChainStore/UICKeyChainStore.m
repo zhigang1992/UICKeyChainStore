@@ -1180,7 +1180,6 @@ static NSString *_defaultService;
                 }
                 return nil;
             }
-            attributes[(__bridge __strong id)kSecAttrAccessControl] = (__bridge id)accessControl;
         } else {
 #if TARGET_OS_IPHONE
             NSLog(@"%@", @"Unavailable 'Touch ID integration' on iOS versions prior to 8.0.");
